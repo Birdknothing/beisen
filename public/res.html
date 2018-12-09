@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+        <div class="row">
+        <!-- 选项卡 -->
+            <div class="col-md-8 col-sm-12 mt-5">   
+                <div class="float-left border-bottom">
+                    <h4>全部文章</h4> 
+                </div>
+                <div class="float-left border-bottom">
+                    <h4>直播回放</h4>
+                </div>
+                <!-- 选项框内容 -->
+                 
+                <!-- 左内容 -->
+                <div id="d1" calss="tab-pane fade in active">
+                    <div>
+                        <!-- <h1>人才盘点，帮助组织建立人才造血机制</h1> -->
+                    </div>
+                
+                </div>
+                <!-- 右内容 -->
+                <div>
+                    <div id="d2" class="tab-pane fade d-none">
+                        <!-- <h1>【财经X角色】期：易居的人才管理观</h1> -->
+                    </div>
+                
+                </div>
+                
+                
+            </div>
+            
+        <!-- 搜索 -->
+            <div class="col-lg-4 col-sm-12"></div>
+        </div>
+        
+    </div>
+    <script>
+        $(function () {
+            $('#myTab li:eq(1) a').tab('show');
+        });
+    </script>
+
+</body>
+</html>
